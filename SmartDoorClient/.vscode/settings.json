@@ -1,8 +1,0 @@
-{
-    "type": "node",
-    "request": "launch",
-    "name": "Launch Chrome against localhost",
-    "url": "http://localhost:PortNo",
-    "webRoot": "${workspaceFolder}",
-        
-}
