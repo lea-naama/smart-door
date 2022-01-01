@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
 
 #nullable disable
 
@@ -15,13 +14,9 @@ namespace SmartDoorServer.Entities
         public int? ActionTypeId { get; set; }
         public int? EnteringTypeId { get; set; }
 
-        [JsonIgnore]
         public virtual ActionType ActionType { get; set; }
-        [JsonIgnore]
         public virtual Employee Employee { get; set; }
-        [JsonIgnore]
         public virtual EnteringType EnteringType { get; set; }
-        [JsonIgnore]
         public virtual Status Status { get; set; }
     }
 }

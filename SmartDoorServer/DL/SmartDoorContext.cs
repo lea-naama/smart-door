@@ -2,8 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using SmartDoorServer.Entities;
-using Action = SmartDoorServer.Entities.Action;
-
 
 #nullable disable
 
@@ -20,7 +18,7 @@ namespace SmartDoorServer.DL
         {
         }
 
-        public virtual DbSet<Action> Actions { get; set; }
+        public virtual DbSet<Entities.Action> Actions { get; set; }
         public virtual DbSet<ActionType> ActionTypes { get; set; }
         public virtual DbSet<ApprovalType> ApprovalTypes { get; set; }
         public virtual DbSet<Department> Departments { get; set; }
@@ -54,7 +52,7 @@ namespace SmartDoorServer.DL
                 entity.Property(e => e.ActionTypeId).HasColumnName("ACTION_TYPE_ID");
 
                 entity.Property(e => e.Date)
-                    .HasColumnType("date")
+                    .HasColumnType("datetime")
                     .HasColumnName("DATE");
 
                 entity.Property(e => e.EmployeeId).HasColumnName("EMPLOYEE_ID");
@@ -159,6 +157,11 @@ namespace SmartDoorServer.DL
                     .HasColumnName("FIRST_NAME");
 
                 entity.Property(e => e.Id).HasColumnName("ID");
+
+                entity.Property(e => e.Image)
+                    .HasMaxLength(100)
+                    .IsUnicode(false)
+                    .HasColumnName("IMAGE");
 
                 entity.Property(e => e.LastName)
                     .HasMaxLength(50)
