@@ -43,7 +43,7 @@ namespace SmartDoorServer.DL
         {
             modelBuilder.HasAnnotation("Relational:Collation", "Hebrew_CI_AS");
 
-            modelBuilder.Entity<Action>(entity =>
+            modelBuilder.Entity<Entities.Action>(entity =>
             {
                 entity.ToTable("ACTION");
 

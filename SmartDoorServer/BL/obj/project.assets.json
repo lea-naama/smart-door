@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Documents\\הנדסאים\\פרוייקט בינה\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
+      "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\פרוייקט בינה\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\BL\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Documents\\הנדסאים\\פרוייקט בינה\\smart-door\\SmartDoorServer\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

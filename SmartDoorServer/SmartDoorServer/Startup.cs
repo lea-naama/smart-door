@@ -31,7 +31,7 @@ namespace SmartDoorServer
             services.AddControllers();
             services.AddScoped<IActionDL,ActionDL> ();
             services.AddDbContext<SmartDoorContext>(options =>
-            options.UseSqlServer("Server=DESKTOP-N50PQOJ;Database=SmartDoor;Trusted_Connection=True;"));
+            options.UseSqlServer(@"Server=DESKTOP-TTNF4F0\MSSQLSERVER2;Database=SmartDoor;Trusted_Connection=True;"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

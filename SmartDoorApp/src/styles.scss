@@ -1,5 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+body { margin: 0;  
+    
+    font-family:'ploni-regular-aaa', Roboto, "Helvetica Neue", sans-serif;
 }
+@font-face {
+    font-family: ploni-regular-aaa;
+    src: url(assets/fonts/ploni-regular-aaa.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ploni-light-aaa;
+    src: url(assets/fonts/ploni-light-aaa.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ploni-bold-aaa;
+    src: url(assets/fonts/ploni-bold-aaa.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ploni-demibold-aaa;
+    src: url(assets/fonts/ploni-demibold-aaa.otf) format("opentype");
+  }
