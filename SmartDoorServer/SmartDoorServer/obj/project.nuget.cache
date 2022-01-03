@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F7j4uqjl1Qx22XFmv6yxIyQC0narwQK6NdnbHJbduBihtuFShzobKro2x9DkCqJtOlJieodTt6VfM6gAoizkCw==",
+  "dgSpecHash": "jNQlSm830WvLnT583g4CEs7su5H5ZTSdb4E9mF+kcMJfhS3Uqxk/b2dBjMg/z2xBsahkcX53Np4PzDfuOXNhYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Documents\\הנדסאים\\פרוייקט בינה\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
