@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Documents\\הנדסאים\\פרוייקט בינה\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {}
+    "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Documents\\הנדסאים\\פרוייקט בינה\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
+    "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\הנדסאים\\פרוייקט בינה\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\פרוייקט בינה\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\הנדסאים\\פרוייקט בינה\\smart-door\\SmartDoorServer\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
