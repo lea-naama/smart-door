@@ -1,1 +1,72 @@
-<p>attendance-page works!</p>
+<div class="card">  
+    <div class="card-header">  
+        <h2 style="margin-left: 620px;">:דו"ח נוכחות של</h2>  
+    </div> 
+    <div class="btn-row">
+        <button (click)="nextMonth()" title="חודש הבא" class="btn btn-outline-light" style="color: blueviolet; background-color: white;" mat-icon-button>
+            <mat-icon >keyboard_arrow_left</mat-icon>
+        </button> 
+        <button (click)="currentMonth()" style="color:blueviolet ;" class="btn btn-outline-secondary">
+            חודש נוכחי
+        </button> 
+        <button (click)="previousMonth()" title="חודש קודם" class="btn btn-outline-light" style="color: blueviolet; background-color: white;" mat-icon-button>
+            <mat-icon>keyboard_arrow_right</mat-icon>
+        </button> <button style="margin-left:1100px ;color: blueviolet; width: 200px;" class="btn btn-outline-secondary" (click)="exportHtmlToPDF()"> PDF-שמור כ</button>
+
+    </div>
+    <div class="card-body" id="table">  
+        <form *ngIf="actionForm" [formGroup]="actionForm">  
+            <p-table  [value]="actionForm.get('tables').controls" [responsive]="true">  
+                <ng-template pTemplate="header">  
+                    <tr>  
+                        <ng-container *ngFor="let col of columns">  
+                            <td style="text-align: center;">{{col}}</td>  
+                        </ng-container>  
+                    </tr>  
+                </ng-template>  
+                <ng-template pTemplate="body" let-rowData let-rowIndex="rowIndex">  
+                    <ng-container formArrayName="tables">  
+                        <tr [formGroupName]="rowIndex">  
+                            <td title={{enteringType}}>  
+                                <input style="text-align: right;" type="text" class="form-control form-control-sm" formControlName="attendenceType" />  
+                            </td> 
+                            <td>  
+                                <input style="text-align: right;" type="text" class="form-control form-control-sm" formControlName="totalHours" />  
+                            </td>  
+                            <td>  
+                                <input type="time" class="form-control form-control-sm" formControlName="checkOut3" />  
+                            </td>  
+                            <td>  
+                                <input type="time" class="form-control form-control-sm" formControlName="checkIn3" />  
+                            </td>
+                            <td>  
+                                <input type="time" class="form-control form-control-sm" formControlName="checkOut2" />  
+                            </td>
+                            <td>  
+                                <input type="time" class="form-control form-control-sm" formControlName="checkIn2" />  
+                            </td>
+                            <td>  
+                                <input type="time" class="form-control form-control-sm" formControlName="checkOut1" />  
+                            </td>
+                            <td>  
+                                <input type="time" class="form-control form-control-sm" formControlName="checkIn1" />  
+                            </td>
+                            <td >  
+                                <input  style="text-align: right;" type="text" class="form-control form-control-sm" formControlName="weakDay" />  
+                            </td>
+                            <td>  
+                                <input style="width: 130%;" type="date" class="form-control form-control-sm" formControlName="date" />  
+                            </td>  
+        
+                            <td>  
+                                <button type="button" class="btn btn-default" title="Delete" (click)="onDeleteRow(rowIndex)">  
+                                    <i class="fa fa-trash-o" aria-hidden="true"></i>  
+                                </button>  
+                            </td>  
+                        </tr>  
+                    </ng-container>  
+                </ng-template>  
+            </p-table>  
+        </form>  
+    </div>  
+</div>  

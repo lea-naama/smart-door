@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DL;
+using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using SmartDoorServer.DL;
@@ -24,15 +25,16 @@ namespace SmartDoorServer.Controllers
         {
             _iActionDL = iActionDL;
             _smartDoorContext = smartDoorContext;
-            Console.WriteLine( _iActionDL.detectFaces());
+           
             
         }
 
         // GET: api/<ActionController>
-        [HttpGet("{from}/{to}")]
-        public List<Action> Get(DateTime from, DateTime to)
+        [HttpGet("{id}/{from}/{to}")]
+        public List<TableRow> Get(int id, DateTime from, DateTime to)
         {
-            return _iActionDL.GetActionsByDates(from, to);
+            List<TableRow> tmp= _iActionDL.GetActionsByDates(id, from, to);
+            return tmp;
         }
 
         // GET api/<ActionController>/5

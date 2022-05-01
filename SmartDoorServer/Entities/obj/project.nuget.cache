@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dcwr8is5GrfJv9K3P62zwQLxD1vZbS3Cx0JusiJqVFVHemYH1egqIXiSP0/UURB2YESGKIMCA6a7fTNbblLc0g==",
+  "dgSpecHash": "HzDdz0jZSLdFFTFc1fDmkkd13CDTCvcjfwda4DWDku90yHNbVUGGZzWt9qw8I9ofkJkpdE8K5ARDHwUYDTR3eQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Documents\\הנדסאים\\פרוייקט בינה\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -168,6 +168,11 @@ namespace SmartDoorServer.DL
                     .IsUnicode(false)
                     .HasColumnName("LAST_NAME");
 
+                entity.Property(e => e.Password)
+                    .HasMaxLength(100)
+                    .IsUnicode(false)
+                    .HasColumnName("PASSWORD");
+
                 entity.Property(e => e.Phone)
                     .HasMaxLength(50)
                     .IsUnicode(false)

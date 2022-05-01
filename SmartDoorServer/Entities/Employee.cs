@@ -25,6 +25,7 @@ namespace SmartDoorServer.Entities
         public int? DepartmentId { get; set; }
         public double? StandardDailyHours { get; set; }
         public string Image { get; set; }
+        public string Password { get; set; }
 
         public virtual Department Department { get; set; }
         public virtual Employee DirectManager { get; set; }
