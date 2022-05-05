@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "7rSONsnHKLra4utrTWWSGVTCXDpnB43bLdHPXROaMXNh23hYjadtnzKxgmBfwtUrzPVOxLuq1Fj11IaRIlPrig==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
+=======
+  "dgSpecHash": "rpAzCb4tjKHgYuuz3ih3isSQylZiccn7jmsvmiQQqVuyxLu9cToFkIJo+RV6fK1GcrbfQGpbsdLnA4O8GAwmCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
+>>>>>>> b219fe43ef230c7d7415b06a04c62677564d371b
   "expectedPackageFiles": [],
   "logs": []
 }

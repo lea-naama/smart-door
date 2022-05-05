@@ -6112,11 +6112,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj",
       "projectName": "SmartDoorServer",
       "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\SmartDoorServer\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj",
+      "projectName": "SmartDoorServer",
+      "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\SmartDoorServer\\obj\\",
+>>>>>>> b219fe43ef230c7d7415b06a04c62677564d371b
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6132,6 +6140,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\BL\\BL.csproj": {
               "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\BL\\BL.csproj"
             },
@@ -6140,6 +6149,16 @@
             },
             "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj"
+=======
+            "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj"
+            },
+            "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\DL.csproj": {
+              "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\DL.csproj"
+            },
+            "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj"
+>>>>>>> b219fe43ef230c7d7415b06a04c62677564d371b
             }
           }
         }
