@@ -54,21 +54,31 @@ namespace DL
                     if (!reader.IsDBNull(2))
                         tr.ActionType = reader.GetString(2);
                     if (!reader.IsDBNull(3))
-                        tr.EnteringType = reader.GetString(3);
+                        tr.CheckOut1 = reader.GetString(3);
                     if (!reader.IsDBNull(4))
-                        tr.CheckIn1 = reader.GetString(4);
+                        tr.CheckOut2 = reader.GetString(4);
                     if (!reader.IsDBNull(5))
-                        tr.CheckOut1 = reader.GetString(5);
+                        tr.CheckOut3 = reader.GetString(5);
                     if (!reader.IsDBNull(6))
-                        tr.CheckIn2 = reader.GetString(6);
+                        tr.CheckIn1 = reader.GetString(6);
                     if (!reader.IsDBNull(7))
-                        tr.CheckOut2 = reader.GetString(7);
+                        tr.CheckIn2 = reader.GetString(7);
                     if (!reader.IsDBNull(8))
                         tr.CheckIn3 = reader.GetString(8);
                     if (!reader.IsDBNull(9))
-                        tr.CheckOut3 = reader.GetString(9);
+                        tr.Total = reader.GetDecimal(9);
                     if (!reader.IsDBNull(10))
-                        tr.Total = reader.GetDecimal(10);
+                        tr.ETCheckIn1 = reader.GetString(10);
+                    if (!reader.IsDBNull(11))
+                        tr.ETCheckOut1 = reader.GetString(11);
+                    if (!reader.IsDBNull(12))
+                        tr.ETCheckIn2 = reader.GetString(12);
+                    if (!reader.IsDBNull(13))
+                        tr.ETCheckOut2 = reader.GetString(13);
+                    if (!reader.IsDBNull(14))
+                        tr.ETCheckIn3 = reader.GetString(14);
+                    if (!reader.IsDBNull(15))
+                        tr.ETCheckOut3 = reader.GetString(15);
                     la.Add(tr);
                 }
                 cn.Close();

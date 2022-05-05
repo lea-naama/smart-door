@@ -12,7 +12,12 @@ import html2canvas from 'html2canvas';
 })
 export class AttendancePageComponent implements OnInit {
   tableData:ActionModel[];
-  enteringType:string="ידני";
+  ETcheckIn1?:string='טרם עודכן';
+  ETcheckOut1?:string='טרם עודכן';
+  ETcheckIn2?:string='טרם עודכן';
+  ETcheckOut2?:string='טרם עודכן';
+  ETcheckIn3?:string='טרם עודכן';
+  ETcheckOut3?:string='טרם עודכן';
   actionForm: FormGroup;
   currentDate:Date;  
   columns:string[]=['סוג נוכחות','סה"כ','שעת יציאה','שעת כניסה','שעת יציאה','שעת כניסה','שעת יציאה','שעת כניסה','יום בשבוע','תאריך'];
@@ -47,7 +52,19 @@ export class AttendancePageComponent implements OnInit {
     
 }  
  createTableRows(action:ActionModel): any{ 
-      this.enteringType=action.enteringType;
+   if(action.etCheckIn1)
+      this.ETcheckIn1=action.etCheckIn1;
+   if(action.etCheckOut1)
+      this.ETcheckOut1=action.etCheckOut1;
+   if(action.etCheckIn2)
+      this.ETcheckIn2=action.etCheckIn2;
+   if(action.etCheckOut2)
+      this.ETcheckOut2=action.etCheckOut2;
+   if(action.etCheckIn3)
+      this.ETcheckIn3=action.etCheckIn3;
+   if(action.etCheckOut3)
+      this.ETcheckOut3=action.etCheckOut3;
+      debugger;
       return this._formBuilder.group({
           date: new FormControl(this.datepipe.transform(action.date, 'yyyy-MM-dd')),
           weakDay: new FormControl(action.dayWeak),
@@ -59,7 +76,6 @@ export class AttendancePageComponent implements OnInit {
           checkOut3: new FormControl(action.checkOut3),
           totalHours: new FormControl(action.total),
           attendenceType: new FormControl(action.actionType),
-          enteringType: new FormControl(action.enteringType),
 
     });
 } 

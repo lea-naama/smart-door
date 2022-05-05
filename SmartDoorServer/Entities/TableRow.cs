@@ -15,7 +15,13 @@ namespace Entities
         public string? CheckIn2 { get; set; }
         public string? CheckOut2 { get; set; }
         public string? CheckIn3 { get; set; }
-        public string? CheckOut3 { get; set; } 
+        public string? CheckOut3 { get; set; }
+        public string? ETCheckIn1 { get; set; }
+        public string? ETCheckOut1 { get; set; }
+        public string? ETCheckIn2 { get; set; }
+        public string? ETCheckOut2 { get; set; }
+        public string? ETCheckIn3 { get; set; }
+        public string? ETCheckOut3 { get; set; }
         public Decimal? Total { get; set; }
 
     }
