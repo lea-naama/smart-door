@@ -1,94 +1,114 @@
-
-
 .bg-img {
-    background: url('../../../assets/images/login2.jpg');
-    padding: 3% 3% 3% 3% ;
+    background: url('../../../assets/images/loginimage.jpg') no-repeat center center fixed;
+    padding: 1% 3% 3% 3% ;
     min-height: 100vh;
     min-width: 100vh;  
-    background-size: cover;   
+    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
          
-    }
-    // .container{
-       
-        
-    // }
+}
+.logo{
+    font-size: 34px;
+    font-family: 'ploni-light-aaa';
+}
 
-    .content{    
-        background-color: rgba(0, 0, 0, 0);
-        height: 85vh;
-        // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        // border-radius: 6px;   
-        margin: 2% 2% 2% 2%; 
-        border-style: solid;
-        border-color: white;
-        border-width: 1.5px;
-        padding: 2%;
-        padding-bottom: 10%;
-    }
+.login-content{
+    width: 33%;
+    direction: rtl;
+    float: right;
+    padding: 5vh;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;   
+    margin-top: 5vh;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    font-family: 'ploni-demibold-aaa';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .title{
+.title{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.input-content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.lable{
+    margin-bottom: 1vh;
+}
+.input{
+    margin-bottom: 1vh;
+    font-family: 'ploni-light-aaa';
+}
 
-        font-size: 52px;
+.login-btn{
+        background-color: #7425ff;
         color: white;
-        font-family: 'ploni-demibold-aaa';   
-        letter-spacing: 1.2px;             
-    }
+        border: 1.5px solid;
+        border-radius: 25px;
+        width: 50%;
+        font-size: 22px;
+        margin-top: 4vh;
+        cursor: pointer;
+}
 
-    .btn{
-        border-width: 2px;
-        color: white;
-        // background-color: white;
-        border-color: white;
-        border-radius: 50px;
-        margin-bottom: 70%;
-        margin-top: 50%;
-        width: 180px;
-        height: 60px;
-        font-size: 40px;
-        font-family: 'ploni-light-aaa';
-        letter-spacing: 1.2px;
-    }
+.login-btn:hover{
+   background-color:  #7425ffd6;
+}
+.login-btn-txt{
+    margin: 0 1vw;
+}
 
-    .password{
-        background-color: rgba($color: #000000, $alpha: 0);
-        border-color: rgba($color: #000000, $alpha: 0);
-        border-bottom-color: white;
-        margin: 7%;
-        width: 80%;
-        color: white;
-        font-size: 36px;
-        text-align: right;
-        border-width: 1px;
-        font-family: 'ploni-light-aaa';
-    }
-    .text{
-        width: 80%;
-        margin: 7%;
-        background-color: rgba($color: #000000, $alpha: 0);
-        border-color: rgba($color: #000000, $alpha: 0);
-        border-bottom-color: white;
-        color: white;
-        font-size: 36px;
-        text-align: right;
-        border-width: 1px;
-        font-family: 'ploni-light-aaa';
-    }
+.warning{
+    margin-bottom: 2vh;
+    font-size: 13px;
+    font-family: 'ploni-light-aaa';
+    color: #6312bf;
+}
 
-    ::placeholder {
-        color: white;
-        font-family: 'ploni-light-aaa';
-    }
-    textarea:focus, input:focus{
-        outline: none;
-    }
+.hide{
+    display: none;
 
-    .btn-div :hover{
-        background-color: rgba($color: #6722FF, $alpha: 0.3) ;
+}
+.show{
+    display: unset;
+}
 
-    }
+.loader{    
+    width: 25px;
+    height: 25px;
+}
 
-    .logo{
-        font-size: 36px;
-        font-family: 'ploni-light-aaa';
-        color: white;
+.error-msg{
+    margin-bottom: 2vh;
+    width: 80%;
+    background-color: #d2b8ffdd;
+    padding: 2vh;
+    border: 1px solid #d2b8ffdd;
+    border-radius: 5px;
+    font-family: ploni-regular-aaa;
+}
+
+::ng-deep{
+    .spinner-border {
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        vertical-align: -0.3em;
+        border: 0.15em solid currentColor;
+        border-right-color: transparent;
+        border-radius: 50%;
+        animation: 0.75s linear infinite spinner-border;
     }
+}
+   
+
+    

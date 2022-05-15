@@ -1,0 +1,26 @@
+// .no-btn{
+//     margin: 2% 5%;
+//     width: 30%;
+// }
+
+.btn{
+    font-size: 22px;
+    margin: 2% 5%;
+    width: 30%;
+   text-align: center;
+}
+
+.dialog{
+    text-align: right;
+    font-family: ploni-light-aaa;
+}
+.h1{
+    font-family:ploni-light-aaa;
+    font-size: 30px;
+}
+textarea:focus, input:focus button:focus{
+    outline: none !important;
+}
+.btn:focus{
+    outline: none;
+}

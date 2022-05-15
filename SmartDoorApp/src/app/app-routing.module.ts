@@ -6,6 +6,8 @@ import { FrameComponent } from './components/frame/frame.component';
 import { AttendancePageComponent } from './components/attendance-page/attendance-page.component';
 import { EmployeeListComponent } from './components/employee-list/employee-list.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { UserProfilComponent } from './components/user-profil/user-profil.component';
+import { EmployeeDetailsComponent } from './components/employee-details/employee-details.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'log-in',pathMatch:'full'},
@@ -13,7 +15,9 @@ const routes: Routes = [
   {path:'shell', component:FrameComponent, 
   children:[
     {path:'attandance',component:AttendancePageComponent},
-    {path:'employee-list',component:EmployeeListComponent}
+    {path:'employee-list',component:EmployeeListComponent},
+    {path:'user-profil', component:UserProfilComponent},
+    {path:'employee-details',component:EmployeeDetailsComponent}
   ]
 },
 {path:'**', component:PageNotFoundComponent}

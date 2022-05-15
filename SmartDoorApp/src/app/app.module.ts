@@ -14,6 +14,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCard, MatCardModule } from '@angular/material/card';
 import { AppRoutingModule } from './app-routing.module'
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import {MatDialogModule} from '@angular/material/dialog';
+import { DialogLogInComponent } from './components/dialog-log-in/dialog-log-in.component';
+import { EmployeeDetailsComponent } from './components/employee-details/employee-details.component';
+
 
 @NgModule({
   declarations: [
@@ -25,14 +30,20 @@ import { ReactiveFormsModule } from '@angular/forms';
     UserProfilComponent,
     AttendancePageComponent,
     PageNotFoundComponent,
-    MenuComponent
+    MenuComponent,
+    DialogLogInComponent,
+    EmployeeDetailsComponent,
+    
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatCardModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule,
+    MatDialogModule
+    
     
   ],
   providers: [],
