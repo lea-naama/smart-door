@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\BL\\obj\\",
-=======
-    "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
-        "projectName": "BL",
-        "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\obj\\",
->>>>>>> b219fe43ef230c7d7415b06a04c62677564d371b
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,6 +54,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -70,7 +65,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\DL\\DL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -79,16 +73,6 @@
         "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\DL\\DL.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\DL\\obj\\",
-=======
-    "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\DL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\DL.csproj",
-        "projectName": "DL",
-        "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\DL.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\obj\\",
->>>>>>> b219fe43ef230c7d7415b06a04c62677564d371b
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,13 +88,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj"
-=======
-              "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj"
->>>>>>> b219fe43ef230c7d7415b06a04c62677564d371b
               }
             }
           }
@@ -124,6 +103,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.8, )"
@@ -154,6 +137,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -162,7 +148,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -171,16 +156,6 @@
         "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\Entities\\obj\\",
-=======
-    "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
-        "projectName": "Entities",
-        "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\obj\\",
->>>>>>> b219fe43ef230c7d7415b06a04c62677564d371b
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -206,6 +181,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -217,6 +198,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -225,7 +209,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -234,16 +217,6 @@
         "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\SmartDoorServer\\obj\\",
-=======
-    "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj",
-        "projectName": "SmartDoorServer",
-        "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\SmartDoorServer\\SmartDoorServer.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\SmartDoorServer\\obj\\",
->>>>>>> b219fe43ef230c7d7415b06a04c62677564d371b
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -259,7 +232,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\BL\\BL.csproj": {
                 "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\BL\\BL.csproj"
               },
@@ -268,16 +240,6 @@
               },
               "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj"
-=======
-              "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj": {
-                "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj"
-              },
-              "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\DL.csproj": {
-                "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\DL.csproj"
-              },
-              "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj"
->>>>>>> b219fe43ef230c7d7415b06a04c62677564d371b
               }
             }
           }
@@ -291,6 +253,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.8, )"

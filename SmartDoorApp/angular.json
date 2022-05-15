@@ -17,6 +17,15 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "lodash",
+				      "devextreme-angular",
+				      "devextreme",
+				      "@firebase",
+				      "@angular/fire",
+				      "devexpress-richedit",
+				      "x-data-spreadsheet"
+           ],
             "outputPath": "dist/SmartDoorApp",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -130,4 +139,5 @@
     }
   },
   "defaultProject": "SmartDoorApp"
+  
 }

@@ -7,6 +7,8 @@ using System.Data;
 using System.IO;
 using System.Diagnostics;
 using Entities;
+using SmartDoorServer.Entities;
+using System.Linq;
 
 namespace DL
 {
@@ -84,6 +86,20 @@ namespace DL
                 cn.Close();
             }
             return la;
+        }
+        public void saveAttendance(Action[] table)
+        {
+            if (table.Length>0)
+            {
+                Employee emp = _smartDoorContext.Employees.Where(e => e.Id == table[0].EmployeeId).FirstOrDefault();
+                foreach (Action act in table)
+                {
+                    act.EmployeeId = emp.EmployeeId;
+                    _smartDoorContext.Actions.Add(act);
+                    _smartDoorContext.SaveChanges();
+                }
+            }
+            
         }
     }
 }

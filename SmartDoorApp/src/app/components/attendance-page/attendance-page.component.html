@@ -1,6 +1,6 @@
 <div class="card">  
     <div class="card-header">  
-        <h2 style="margin-left: 620px;">: דו"ח נוכחות של לאה הריס</h2>  
+        <h2 style="margin-left: 620px;">:דו"ח נוכחות של</h2>  
     </div> 
     <div class="btn-row">
         <button (click)="nextMonth()" title="חודש הבא" class="btn btn-outline-light" style="color: blueviolet; background-color: white;" mat-icon-button>
@@ -27,29 +27,34 @@
                 <ng-template pTemplate="body" let-rowData let-rowIndex="rowIndex">  
                     <ng-container formArrayName="tables">  
                         <tr [formGroupName]="rowIndex">  
-                            <td >  
-                                <input style="text-align: right;" type="text" class="form-control form-control-sm" formControlName="attendenceType" />  
+                            <td>  
+                                <select style="text-align: right;" type="text" class="form-control form-control-sm" formControlName="actionType">
+                                    <option>נוכחות</option>
+                                    <option>יציאה בתפקיד</option>
+                                    <option>מחלה</option>
+                                    <option>חופשה</option>
+                                </select>
                             </td> 
                             <td>  
                                 <input style="text-align: right;" type="text" class="form-control form-control-sm" formControlName="totalHours" />  
                             </td>  
                             <td>  
-                                <input title={{ETcheckOut3}} type="time" class="form-control form-control-sm" formControlName="checkOut3" />  
+                                <input title={{etCheckOut3}} type="time" class="form-control form-control-sm" formControlName="checkOut3" />  
                             </td>  
                             <td>  
-                                <input title={{ETcheckIn3}} type="time" class="form-control form-control-sm" formControlName="checkIn3" />  
+                                <input title={{etCheckIn3}} type="time" class="form-control form-control-sm" formControlName="checkIn3" />  
                             </td>
                             <td>  
-                                <input title={{ETcheckOut2}} type="time" class="form-control form-control-sm" formControlName="checkOut2" />  
+                                <input title={{etCheckOut2}} type="time" class="form-control form-control-sm" formControlName="checkOut2" />  
                             </td>
                             <td>  
-                                <input title={{ETcheckIn2}} type="time" class="form-control form-control-sm" formControlName="checkIn2" />  
+                                <input title={{etCheckIn2}} type="time" class="form-control form-control-sm" formControlName="checkIn2" />  
                             </td>
                             <td>  
-                                <input title={{ETcheckOut1}}  type="time" class="form-control form-control-sm" formControlName="checkOut1" />  
+                                <input title={{etCheckOut1}} type="time" class="form-control form-control-sm" formControlName="checkOut1" />  
                             </td>
-                            <td >   
-                                <input title={{ETcheckIn1}} type="time" class="form-control form-control-sm" formControlName="checkIn1" />  
+                            <td>  
+                                <input title={{etCheckIn1}} type="time" class="form-control form-control-sm" formControlName="checkIn1" />  
                             </td>
                             <td >  
                                 <input  style="text-align: right;" type="text" class="form-control form-control-sm" formControlName="weakDay" />  
@@ -59,14 +64,15 @@
                             </td>  
         
                             <td>  
-                                <button style="margin-left: 50px;" type="button" class="btn btn-outline-secondary" title="שמירה" (click)="onSaveRow(rowIndex)">  
-                                    שמירה  
+                                <button type="button" class="btn btn-default" title="Delete" (click)="onDeleteRow(rowIndex)">  
+                                    <i class="fa fa-trash-o" aria-hidden="true"></i>  
                                 </button>  
-                            </td> 
+                            </td>  
                         </tr>  
                     </ng-container>  
                 </ng-template>  
             </p-table>  
         </form>  
+        <button (click)="saveTable(actionForm.value.tables)">שמור שינויים</button>
     </div>  
 </div>  

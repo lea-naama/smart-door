@@ -12,8 +12,22 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { MenuComponent } from './components/menu/menu.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCard, MatCardModule } from '@angular/material/card';
+import{ MatIcon, MatIconModule} from '@angular/material/icon'
 import { AppRoutingModule } from './app-routing.module'
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { MatTableModule} from '@angular/material/table';
+import { MatExpansionModule} from '@angular/material/expansion';
+import { HttpClientModule } from "@angular/common/http";
+import {TableModule} from 'primeng/table'
+import { DatePipe } from '@angular/common';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatNativeDateModule} from '@angular/material/core';
+import { MatFormFieldModule } from '@angular/material/form-field'  
+
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -32,10 +46,19 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     MatCardModule,
     AppRoutingModule,
-    ReactiveFormsModule
-    
+    FormsModule,
+    ReactiveFormsModule,
+    MatTableModule,
+    MatExpansionModule,
+    HttpClientModule,
+    TableModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatFormFieldModule,
+    MatIconModule
+
   ],
-  providers: [],
+  providers: [DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

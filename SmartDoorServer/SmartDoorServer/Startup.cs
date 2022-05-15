@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Serialization;
 using SmartDoorServer.DL;
 
 namespace SmartDoorServer
@@ -28,7 +29,12 @@ namespace SmartDoorServer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(setup =>
+            {
+            //    setup.SerializerSettings.ContractResolver = new DefaultContractResolver();
+            //    setup.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                setup.SerializerSettings.DateTimeZoneHandling = Newtonsoft.Json.DateTimeZoneHandling.Local;
+            });
             services.AddScoped<IActionDL,ActionDL> ();
             services.AddDbContext<SmartDoorContext>(options =>
             options.UseSqlServer(@"Server=DESKTOP-N50PQOJ;Database=SmartDoor;Trusted_Connection=True;"));

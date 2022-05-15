@@ -1,14 +1,14 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "HzDdz0jZSLdFFTFc1fDmkkd13CDTCvcjfwda4DWDku90yHNbVUGGZzWt9qw8I9ofkJkpdE8K5ARDHwUYDTR3eQ==",
+  "dgSpecHash": "VSychmLUwy8wk/SSuBaLHAL9AE6Yv7Iy5yLVNEIsfj0Zv9NBRJMbGwp+FUlSd/+BUBqFFcO//dHZzzuiL8Q5SA==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
-=======
-  "dgSpecHash": "YMSmCGigv6oS5XA0ewUgIlnyF2cO2a5yAYXNOk01PRZ0HoLMILGkbtxNhu6YrFBnDLbON1LTjVMYXyo54NigPA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
->>>>>>> b219fe43ef230c7d7415b06a04c62677564d371b
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.0\\microsoft.aspnetcore.jsonpatch.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.0\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

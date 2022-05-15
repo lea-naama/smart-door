@@ -196,8 +196,6 @@ C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer
 C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\SmartDoorServer.csprojAssemblyReference.cache
 C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\SmartDoorServer.AssemblyInfoInputs.cache
 C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\SmartDoorServer.AssemblyInfo.cs
-C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\SmartDoorServer.csproj.CoreCompileInputs.cache
-C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\SmartDoorServer.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\SmartDoorServer.RazorTargetAssemblyInfo.cache
 C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\SmartDoorServer.csproj.CopyComplete
 C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\staticwebassets\SmartDoorServer.StaticWebAssets.Manifest.cache
@@ -205,3 +203,8 @@ C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer
 C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\SmartDoorServer.dll
 C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\SmartDoorServer.pdb
 C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\SmartDoorServer.genruntimeconfig.cache
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\SmartDoorServer.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\SmartDoorServer\obj\Debug\netcoreapp3.1\SmartDoorServer.MvcApplicationPartsAssemblyInfo.cache

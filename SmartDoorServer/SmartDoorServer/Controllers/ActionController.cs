@@ -46,8 +46,9 @@ namespace SmartDoorServer.Controllers
 
         // POST api/<ActionController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Action[] table)
         {
+             _iActionDL.saveAttendance(table);
         }
 
         // PUT api/<ActionController>/5
