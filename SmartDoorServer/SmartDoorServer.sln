@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDoorServer", "SmartDoorServer\SmartDoorServer.csproj", "{F511B6A0-32B5-4253-8A9E-86A316AAE632}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartDoorServer", "SmartDoorServer\SmartDoorServer.csproj", "{F511B6A0-32B5-4253-8A9E-86A316AAE632}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{896037C4-6DD9-4305-995B-527BF27DAE88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{896037C4-6DD9-4305-995B-527BF27DAE88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{D8EC6DC3-3A57-4A4D-8714-ABC1FEC0C5D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BL", "BL\BL.csproj", "{D8EC6DC3-3A57-4A4D-8714-ABC1FEC0C5D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DL", "DL\DL.csproj", "{D10BC475-DFE0-4B12-87D7-F09CF41374BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DL", "DL\DL.csproj", "{D10BC475-DFE0-4B12-87D7-F09CF41374BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiesDTO", "EntitiesDTO\EntitiesDTO.csproj", "{70D00E35-F249-4625-8E68-C2C12E81F6B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D10BC475-DFE0-4B12-87D7-F09CF41374BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D10BC475-DFE0-4B12-87D7-F09CF41374BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D10BC475-DFE0-4B12-87D7-F09CF41374BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D00E35-F249-4625-8E68-C2C12E81F6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D00E35-F249-4625-8E68-C2C12E81F6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D00E35-F249-4625-8E68-C2C12E81F6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D00E35-F249-4625-8E68-C2C12E81F6B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

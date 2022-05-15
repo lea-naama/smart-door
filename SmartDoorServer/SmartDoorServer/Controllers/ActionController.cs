@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DL;
+using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
-using SmartDoorServer.DL;
 using SmartDoorServer.Entities;
 using Action = SmartDoorServer.Entities.Action;
 
@@ -30,9 +30,10 @@ namespace SmartDoorServer.Controllers
 
         // GET: api/<ActionController>
         [HttpGet("{from}/{to}")]
-        public List<Action> Get(DateTime from, DateTime to)
+        public List<TableRow> Get(int id, DateTime from, DateTime to)
         {
-            return _iActionDL.GetActionsByDates(from, to);
+            List<TableRow> tmp = _iActionDL.GetActionsByDates(id, from, to);
+            return tmp;
         }
 
         // GET api/<ActionController>/5

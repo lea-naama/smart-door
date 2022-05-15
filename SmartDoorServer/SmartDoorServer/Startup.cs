@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BL;
 using DL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -12,7 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using SmartDoorServer.DL;
+using AutoMapper;
 
 namespace SmartDoorServer
 {
@@ -30,8 +31,13 @@ namespace SmartDoorServer
         {
             services.AddControllers();
             services.AddScoped<IActionDL,ActionDL> ();
+            services.AddScoped<ILogInDL, LogInDL>();
+            services.AddScoped<ILogInBL, LogInBL>();
+            services.AddScoped<IEmployeeBL, EmployeeBL>();
+            services.AddScoped<IEmployeeDL, EmployeeDL>();
             services.AddDbContext<SmartDoorContext>(options =>
-            options.UseSqlServer(@"Server=DESKTOP-TTNF4F0\MSSQLSERVER2;Database=SmartDoor;Trusted_Connection=True;"));
+            options.UseSqlServer(Configuration.GetConnectionString("SmartDoor")));
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,7 +48,7 @@ namespace SmartDoorServer
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            app.UseHttpsRedirection();      
 
             app.UseRouting();
 

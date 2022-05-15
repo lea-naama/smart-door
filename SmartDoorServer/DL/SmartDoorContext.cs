@@ -2,10 +2,11 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using SmartDoorServer.Entities;
+using Action = SmartDoorServer.Entities.Action;
 
 #nullable disable
 
-namespace SmartDoorServer.DL
+namespace DL
 {
     public partial class SmartDoorContext : DbContext
     {
@@ -18,7 +19,7 @@ namespace SmartDoorServer.DL
         {
         }
 
-        public virtual DbSet<Entities.Action> Actions { get; set; }
+        public virtual DbSet<Action> Actions { get; set; }
         public virtual DbSet<ActionType> ActionTypes { get; set; }
         public virtual DbSet<ApprovalType> ApprovalTypes { get; set; }
         public virtual DbSet<Department> Departments { get; set; }
@@ -34,8 +35,8 @@ namespace SmartDoorServer.DL
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=DESKTOP-N50PQOJ;Database=SmartDoor;Trusted_Connection=True;");
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Server=DESKTOP-TTNF4F0\\MSSQLSERVER2;Database=SmartDoor;Trusted_Connection=True;");
             }
         }
 
@@ -43,7 +44,7 @@ namespace SmartDoorServer.DL
         {
             modelBuilder.HasAnnotation("Relational:Collation", "Hebrew_CI_AS");
 
-            modelBuilder.Entity<Entities.Action>(entity =>
+            modelBuilder.Entity<Action>(entity =>
             {
                 entity.ToTable("ACTION");
 
@@ -167,6 +168,11 @@ namespace SmartDoorServer.DL
                     .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("LAST_NAME");
+
+                entity.Property(e => e.Password)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("PASSWORD");
 
                 entity.Property(e => e.Phone)
                     .HasMaxLength(50)
