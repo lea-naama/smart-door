@@ -2,18 +2,17 @@
 .bg-img {
   background: url('../../../assets/images/bg3.jpg');
   padding: 1% 3% 3% 3% ;
-  min-height: 100vh;
-  min-width: 100vh;  
-  background-size: cover;      
+  min-height: 100vh;       
   font-family: 'ploni-light-aaa';  
+  -webkit-background-size: cover;
   }
 
 .content{    
-    background-color: white;
-    height: 100vh;
+    background-color: white;    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 6px;   
     margin: 0 2% 2% 2%; 
+    height: 80vh;
 }
 
 .logo{
@@ -25,8 +24,25 @@
 }
 
 .menu > div{  
-  padding-left: 9%;
+  padding: 2vw;
   font-size: medium;
+}
+
+.menu-btn2, .menu-btn1 {
+  cursor: pointer;
+}
+.menu-btn2:hover  {
+  // font-style: italic;
+  // border-bottom: 1px solid;
+  // text-decoration: underline;
+  transform: skew(-8deg);
+}
+.menu-btn1:hover{
+  // font-style: italic;
+  // border-bottom: 1px solid;
+  // text-decoration: underline;
+  transform: skew(-8deg);
+
 }
 
 

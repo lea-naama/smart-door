@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v3.1",
@@ -103,4 +104,28 @@
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     }
   }
+=======
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Entities/1.0.0": {
+        "runtime": {
+          "Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+>>>>>>> 3fe4ef61862493bdcb29b21f9204f9c668744064
 }

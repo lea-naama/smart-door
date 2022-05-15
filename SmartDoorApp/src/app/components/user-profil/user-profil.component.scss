@@ -1,0 +1,40 @@
+.profill-icon {
+    // background-image: url(../../../assets/icons/user.svg);
+    // background-repeat: no-repeat;
+    // background-size: 25px 25px;
+    // padding: 3vh;
+}
+
+::ng-deep {
+    .profill>.btn-light {
+        background-image: url(../../../assets/icons/user.svg);
+        background-repeat: no-repeat;
+        background-size: 25px 25px;
+        background-color: #ff408100;
+        border-color: #f8f9fa00;
+        // padding: 3vh;
+    }
+
+    .dropdown-toggle::after {
+        margin-left: 1em;
+    }
+
+    .profill>.btn:focus,
+    .profill>.btn:hover {
+        background-color: #f8f9fa00;
+        border-color: #f8f9fa00;
+        outline: none !important;
+    }
+
+    .dropdown-item {
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .user-name {
+        text-align: center;
+        margin-bottom: 0.5vh;
+        font-family: ploni-regular-aaa;
+    }
+
+}

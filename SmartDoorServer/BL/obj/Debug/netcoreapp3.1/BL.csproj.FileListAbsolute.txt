@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\admin\Documents\finalProject\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\BL.deps.json
 C:\Users\admin\Documents\finalProject\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\BL.dll
 C:\Users\admin\Documents\finalProject\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\BL.pdb
@@ -25,3 +26,37 @@ C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\BL\obj\Debug\ne
 C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.pdb
 C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.csprojAssemblyReference.cache
 C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.csproj.CoreCompileInputs.cache
+=======
+C:\Users\admin\Documents\finalProject\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\BL.deps.json
+C:\Users\admin\Documents\finalProject\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\BL.dll
+C:\Users\admin\Documents\finalProject\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\BL.pdb
+C:\Users\admin\Documents\finalProject\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.csprojAssemblyReference.cache
+C:\Users\admin\Documents\finalProject\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\finalProject\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfo.cs
+C:\Users\admin\Documents\finalProject\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\finalProject\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.dll
+C:\Users\admin\Documents\finalProject\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.pdb
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\BL.deps.json
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\BL.dll
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\BL.pdb
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.csprojAssemblyReference.cache
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfo.cs
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.dll
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.pdb
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\BL.deps.json
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\BL.dll
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\BL.pdb
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.csprojAssemblyReference.cache
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfo.cs
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.dll
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.pdb
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\DL.dll
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\DL.pdb
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.csproj.CopyComplete
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\BL\obj\Debug\netcoreapp3.1\BL.csproj.CoreCompileInputs.cache
+>>>>>>> 3fe4ef61862493bdcb29b21f9204f9c668744064

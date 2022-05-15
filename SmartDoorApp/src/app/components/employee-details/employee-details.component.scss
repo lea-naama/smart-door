@@ -1,0 +1,30 @@
+.content{
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.title-txt{
+    font-size: 34px;
+    text-align: center;
+    margin: 0;
+}
+.separate-line{
+    width: 1px;
+    height: 65vh;
+    background-color: #b5b5b5;
+    margin: 0 2vh;
+}
+
+::ng-deep{
+    .nav-pills .nav-link.active{
+        background-color: #7425ff;
+    }
+
+    .nav-link{
+        color: #7425ff;
+    }
+
+    .nav-link:hover{
+        color: #000000;
+    }
+}

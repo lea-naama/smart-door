@@ -1,1 +1,12 @@
-<p>user-profil works!</p>
+<div class="btn-group profill">
+    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      <div class="profill-icon"></div>
+    </button>
+    <ul class="dropdown-menu">
+        <li class="user-name">{{this.userService.user.firstName+' '+this.userService.user.lastName}}</li>
+      <li><a class="dropdown-item"  (click)="GoToUserDetails()">איזור אישי</a></li>      
+      <li><hr class="dropdown-divider"></li>
+      <!-- <li><a class="dropdown-item" href="#">התנתק</a></li> -->
+      <li><a class="dropdown-item" href="#">התנתק</a></li>
+    </ul>
+  </div>

@@ -1,11 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+=======
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+>>>>>>> 3fe4ef61862493bdcb29b21f9204f9c668744064
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.8">
@@ -21,8 +26,13 @@
     <ProjectReference Include="..\Entities\Entities.csproj" />
   </ItemGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <Folder Include="Models\" />
+=======
+  <ItemGroup>
+    <Folder Include="Models\" />
+>>>>>>> 3fe4ef61862493bdcb29b21f9204f9c668744064
   </ItemGroup>
 
 

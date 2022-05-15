@@ -77,12 +77,6 @@ export class AttendancePageComponent implements OnInit {
           totalHours: new FormControl(action.total),
           actionType: new FormControl(action.actionType),
           enteringType: new FormControl(action.enteringType),
-          // etCheckIn1: new FormControl(action.etCheckIn1),
-          // etCheckOut1: new FormControl(action.etCheckOut1),
-          // etCheckIn2: new FormControl(action.etCheckIn2),
-          // etCheckOut2: new FormControl(action.etCheckOut2),
-          // etCheckIn3: new FormControl(action.etCheckIn3),
-          // etCheckOut3: new FormControl(action.etCheckOut3)
 
     }
     );

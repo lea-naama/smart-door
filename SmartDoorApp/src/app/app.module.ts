@@ -23,10 +23,9 @@ import { DatePipe } from '@angular/common';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
 import { MatFormFieldModule } from '@angular/material/form-field'  
-
-
-
-
+import {MatDialogModule} from '@angular/material/dialog';
+import { DialogLogInComponent } from './components/dialog-log-in/dialog-log-in.component';
+import { EmployeeDetailsComponent } from './components/employee-details/employee-details.component';
 
 
 @NgModule({
@@ -39,7 +38,10 @@ import { MatFormFieldModule } from '@angular/material/form-field'
     UserProfilComponent,
     AttendancePageComponent,
     PageNotFoundComponent,
-    MenuComponent
+    MenuComponent,
+    DialogLogInComponent,
+    EmployeeDetailsComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -55,8 +57,8 @@ import { MatFormFieldModule } from '@angular/material/form-field'
     MatDatepickerModule,
     MatNativeDateModule,
     MatFormFieldModule,
-    MatIconModule
-
+    MatIconModule,
+    MatDialogModule        
   ],
   providers: [DatePipe],
   bootstrap: [AppComponent]

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "iisSettings": {
     "windowsAuthentication": false,
@@ -28,4 +29,36 @@
       "applicationUrl": "https://localhost:5001;http://localhost:5000"
     }
   }
+=======
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:59219",
+      "sslPort": 44343
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/Action",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sqlDebugging": false
+    },
+    "SmartDoorServer": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/Action",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+>>>>>>> 3fe4ef61862493bdcb29b21f9204f9c668744064
 }

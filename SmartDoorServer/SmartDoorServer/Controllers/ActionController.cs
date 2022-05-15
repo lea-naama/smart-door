@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DL;
+<<<<<<< HEAD
 using Entities;
+=======
+using Entities;
+>>>>>>> 3fe4ef61862493bdcb29b21f9204f9c668744064
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
-using SmartDoorServer.DL;
 using SmartDoorServer.Entities;
 using Action = SmartDoorServer.Entities.Action;
 
@@ -30,10 +33,17 @@ namespace SmartDoorServer.Controllers
         }
 
         // GET: api/<ActionController>
+<<<<<<< HEAD
         [HttpGet("{id}/{from}/{to}")]
         public List<TableRow> Get(int id, DateTime from, DateTime to)
         {
             List<TableRow> tmp= _iActionDL.GetActionsByDates(id, from, to);
+=======
+        [HttpGet("{from}/{to}")]
+        public List<TableRow> Get(int id, DateTime from, DateTime to)
+        {
+            List<TableRow> tmp = _iActionDL.GetActionsByDates(id, from, to);
+>>>>>>> 3fe4ef61862493bdcb29b21f9204f9c668744064
             return tmp;
         }
 

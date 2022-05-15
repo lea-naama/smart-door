@@ -1,4 +1,4 @@
-﻿using SmartDoorServer.DL;
+﻿using DL;
 using System;
 using System.Collections.Generic;
 using Action = SmartDoorServer.Entities.Action;
@@ -9,6 +9,7 @@ using System.Diagnostics;
 using Entities;
 using SmartDoorServer.Entities;
 using System.Linq;
+using SmartDoorServer.DL;
 
 namespace DL
 {
@@ -30,8 +31,7 @@ namespace DL
             {
                 Console.WriteLine("The specified directory does not exist. {0}", e);
             }
-        }
-        
+        }        
         public List<TableRow> GetActionsByDates(int id, DateTime fromDate, DateTime toDate)
         {
             List<TableRow> la=new List<TableRow>();
