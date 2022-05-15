@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\admin\Documents\finalProject\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
 C:\Users\admin\Documents\finalProject\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.dll
 C:\Users\admin\Documents\finalProject\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
@@ -37,3 +38,49 @@ C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\Entities\obj\
 C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
 >>>>>>> 3fe4ef61862493bdcb29b21f9204f9c668744064
+=======
+C:\Users\admin\Documents\finalProject\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\admin\Documents\finalProject\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\admin\Documents\finalProject\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\admin\Documents\finalProject\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Users\admin\Documents\finalProject\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\finalProject\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\admin\Documents\finalProject\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\finalProject\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\admin\Documents\finalProject\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\admin\Documents\finalProject\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\admin\Documents\הנדסאים\פרוייקט בינה\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\admin\Documents\הנדסאים\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+>>>>>>> 7a5198517c309c3d1b84e6bad66afbe5165d43d4

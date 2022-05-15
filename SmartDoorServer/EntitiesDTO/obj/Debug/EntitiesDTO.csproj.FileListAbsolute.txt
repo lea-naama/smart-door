@@ -1,0 +1,5 @@
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\EntitiesDTO\bin\Debug\EntitiesDTO.dll
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\EntitiesDTO\bin\Debug\EntitiesDTO.pdb
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\EntitiesDTO\obj\Debug\EntitiesDTO.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\EntitiesDTO\obj\Debug\EntitiesDTO.dll
+C:\Users\admin\Documents\finalProject\project\smart-door\SmartDoorServer\EntitiesDTO\obj\Debug\EntitiesDTO.pdb

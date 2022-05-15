@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "VSychmLUwy8wk/SSuBaLHAL9AE6Yv7Iy5yLVNEIsfj0Zv9NBRJMbGwp+FUlSd/+BUBqFFcO//dHZzzuiL8Q5SA==",
@@ -18,4 +19,13 @@
       "message": "Problem reading the cache file C:\\Users\\admin\\Documents\\finalProject\\smart-door\\SmartDoorServer\\Entities\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
     }
   ]
+=======
+{
+  "version": 2,
+  "dgSpecHash": "LuXu2ODlMNuYmMu9V6gnqmBYzzz+APQec9oWMjMVDne4CtAgL3zNKXJsjTetANU3OWybbyRoWHGltjFdtlXm0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> 7a5198517c309c3d1b84e6bad66afbe5165d43d4
 }
