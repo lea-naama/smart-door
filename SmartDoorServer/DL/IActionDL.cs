@@ -8,6 +8,6 @@ namespace DL
     public interface IActionDL
     {
         List<TableRow> GetActionsByDates(int id, DateTime fromDate, DateTime toDate);
-        string detectFaces();
+        void saveAttendance(Action[] table);
     }
 }

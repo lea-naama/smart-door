@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K3rezLTVHhyK4rv0xgfZmQzPofQ0mkqLN43E9MLgEAhc5IQiRlxsxaErPn1EDHHM+ior+KW0M89Srv0yDYwTVg==",
+  "dgSpecHash": "AYggQCAeRajcI/Fa0XIEHmooVaaUi8yUFSGTQR+1gPO1UMftiHa8CZkoO2T4nGn1r2LmtGTbnLn6bCPP4AIlJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

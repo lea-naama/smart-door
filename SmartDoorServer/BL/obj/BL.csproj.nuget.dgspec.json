@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj": {}
+    "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\BL\\BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj": {
+    "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\BL\\BL.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\BL\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\DL.csproj": {
-                "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\DL.csproj"
+              "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\DL\\DL.csproj": {
+                "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\DL\\DL.csproj"
               }
             }
           }
@@ -62,18 +62,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.419\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.418\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\DL.csproj": {
+    "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\DL\\DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\DL.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\DL\\DL.csproj",
         "projectName": "DL",
-        "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\DL.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\DL\\DL.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\DL\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\DL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj"
+              "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj"
               }
             }
           }
@@ -142,14 +142,14 @@
         }
       }
     },
-    "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
+    "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\הנדסאים\\smart-door\\SmartDoorServer\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\finalProject\\project\\smart-door\\SmartDoorServer\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -190,7 +190,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.419\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.418\\RuntimeIdentifierGraph.json"
         }
       }
     }

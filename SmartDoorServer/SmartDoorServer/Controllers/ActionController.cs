@@ -24,15 +24,15 @@ namespace SmartDoorServer.Controllers
         {
             _iActionDL = iActionDL;
             _smartDoorContext = smartDoorContext;
-            Console.WriteLine( _iActionDL.detectFaces());
+           
             
         }
 
         // GET: api/<ActionController>
-        [HttpGet("{from}/{to}")]
+        [HttpGet("{id}/{from}/{to}")]
         public List<TableRow> Get(int id, DateTime from, DateTime to)
         {
-            List<TableRow> tmp = _iActionDL.GetActionsByDates(id, from, to);
+            List<TableRow> tmp= _iActionDL.GetActionsByDates(id, from, to);
             return tmp;
         }
 
@@ -45,8 +45,9 @@ namespace SmartDoorServer.Controllers
 
         // POST api/<ActionController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Action[] table)
         {
+             _iActionDL.saveAttendance(table);
         }
 
         // PUT api/<ActionController>/5
