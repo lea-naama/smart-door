@@ -3,7 +3,25 @@ import face_recognition
 import argparse
 import pickle
 import cv2
+import datetime
 # construct the argument parser and parse the arguments
+import pyodbc as pyodbc
+def save_action_in_db(id='323805077', camera=1):
+	entring_type = 1
+	action_type = 1
+	action_datetime = datetime.datetime.now()
+	cnxn = pyodbc.connect(
+		'DRIVER={SQL Server};SERVER=DESKTOP-TTNF4F0\MSSQLSERVER2' + ';DATABASE=SmartDoor'  + ';UID=user'  + ';PWD=12345678')
+	# cnxn = pyodbc.connect(r'Driver=SQL Server;Server=tcp:DESKTOP-TTNF4F0\MSSQLSERVER2;Database=SmartDoor;Trusted_Connection=yes;User')
+	cursor = cnxn.cursor()
+	cursor.execute(f'SELECT EMPLOYEE_ID FROM [dbo].[EMPLOYEE]  WHERE [dbo].[EMPLOYEE].[ID] = {id}')
+	employee = cursor.fetchone()
+	employee_id = employee[0]
+	if  employee_id != 0:
+		cursor.execute('INSERT INTO ACTION(EMPLOYEE_ID,DATE,STATUS_ID,ACTION_TYPE_ID,ENTERING_TYPE_ID) VALUES(?,?,?,?,?)',
+		(employee_id,action_datetime,camera,action_type,entring_type))
+	cursor.commit()
+	cnxn.commit()
 ap = argparse.ArgumentParser()
 ap.add_argument("-e", "--encodings", required=True,
 	help="path to serialized db of facial encodings")
@@ -62,10 +80,10 @@ for ((top, right, bottom, left), name) in zip(boxes, names):
 	y = top - 15 if top - 15 > 15 else top + 15
 	cv2.putText(image, name, (left, y), cv2.FONT_HERSHEY_SIMPLEX,
 		0.75, (0, 255, 0), 2)
+	save_action_in_db()
 # show the output image
-#cv2.imshow("Image", image)
-#cv2.waitKey(0)
-f = open("result.txt", "w")
-f.write(name)
-f.close()
-cv2.imwrite("Image.png", image)
+cv2.imshow("Image", image)
+cv2.waitKey(0)
+
+
+
