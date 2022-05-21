@@ -8,12 +8,16 @@ import { Route, Router } from '@angular/router';
 })
 export class FrameComponent implements OnInit {
 
+  isManagaer : boolean
   constructor(private router : Router) { }
 
   ngOnInit(): void {
   }
   Nevigate(component){
     this.router.navigate(['shell/'+component]);
+  }
+  IsManager(){
+    return  JSON.parse(localStorage.getItem('isManager'));
   }
 
 }

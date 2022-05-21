@@ -6,12 +6,15 @@ import{DatePipe} from '@angular/common'
 import { jsPDF } from "jspdf";
 import html2canvas from 'html2canvas';
 import { ActionModel } from 'src/app/action.Model';
+import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-attendance-page',
   templateUrl: './attendance-page.component.html',
   styleUrls: ['./attendance-page.component.scss']
 })
 export class AttendancePageComponent implements OnInit {
+  user_id:number;
+  userFullName:number;
   tableData:TableRow[];
   etCheckIn1?:string='טרם עודכן';
   etCheckOut1?:string='טרם עודכן';
@@ -23,14 +26,20 @@ export class AttendancePageComponent implements OnInit {
   currentDate:Date;  
   columns:string[]=['סוג נוכחות','סה"כ','שעת יציאה','שעת כניסה','שעת יציאה','שעת כניסה','שעת יציאה','שעת כניסה','יום בשבוע','תאריך'];
   constructor(private  _dataService: DataService,
-    private _formBuilder: FormBuilder, private datepipe:DatePipe) {
+    private _formBuilder: FormBuilder, private datepipe:DatePipe, private _acr : ActivatedRoute) {
       this.currentDate=new Date();
    }
   ngOnInit(): void {
-    console.log(this.currentDate);
+    debugger;
+    this._acr.paramMap.subscribe(p=>
+      {if(p.has("id"))
+      this.user_id=Number(p.get("id"))});
+      
+    this.userFullName=this.user_id;
     var from=new Date(this.currentDate.getFullYear(), this.currentDate.getMonth(), 1);
     var to=new Date(this.currentDate.getFullYear(), this.currentDate.getMonth() + 1, 0);
-    this._dataService.getActionsByDates(324215433,
+    //this.user_id=JSON.parse(localStorage.getItem('user')).id;
+    this._dataService.getActionsByDates(this.user_id,
       this.datepipe.transform(from, 'yyyy-MM-dd'),
       this.datepipe.transform(to, 'yyyy-MM-dd'))
     .subscribe(data=>{
@@ -41,6 +50,7 @@ export class AttendancePageComponent implements OnInit {
 
   }
  createForm(actionsTable:TableRow[]){  
+   debugger;
     this.actionForm = this._formBuilder.group({  
       tables: this._formBuilder.array([
 
@@ -77,6 +87,12 @@ export class AttendancePageComponent implements OnInit {
           totalHours: new FormControl(action.total),
           actionType: new FormControl(action.actionType),
           enteringType: new FormControl(action.enteringType),
+          aiCheckIn1: new FormControl(action.aiCheckIn1),
+          aiCheckOut1: new FormControl(action.aiCheckOut1),
+          aiCheckIn2: new FormControl(action.aiCheckIn2),
+          aiCheckOut2: new FormControl(action.aiCheckOut2),
+          aiCheckIn3: new FormControl(action.aiCheckIn3),
+          aiCheckOut3: new FormControl(action.aiCheckOut3),
 
     }
     );
@@ -149,11 +165,17 @@ castActionType(at:string){
   }
 } 
 saveTable(actionTable:TableRow[]){
+  debugger;
   let table:ActionModel[]=new Array();
   let i=0;
   actionTable.forEach(action=>{
   if(action.checkIn1){
-    table[i]={date:new Date(action.date+' '+action.checkIn1), statusId:1,enteringTypeId:0,actionTypeId:0, employeeId:324215433};
+    let actId:number;
+    if(action.aiCheckIn1)
+      actId=action.aiCheckIn1;
+    else
+      actId=0;
+    table[i]={date:new Date(action.date+' '+action.checkIn1), statusId:1,enteringTypeId:0,actionTypeId:0, employeeId:this.user_id,actionId:actId};
     if(action.etCheckIn1==undefined)
       table[i].enteringTypeId=4;
     else
@@ -162,7 +184,12 @@ saveTable(actionTable:TableRow[]){
     i=i+1;
   }
   if(action.checkOut1){
-    table[i]={date:new Date(action.date+' '+action.checkOut1), statusId:2,enteringTypeId:0,actionTypeId:0, employeeId:324215433};
+    let actId:number;
+    if(action.aiCheckOut1)
+      actId=action.aiCheckOut1;
+    else
+      actId=0;
+    table[i]={date:new Date(action.date+' '+action.checkOut1), statusId:2,enteringTypeId:0,actionTypeId:0, employeeId:this.user_id, actionId:actId};
     if(action.etCheckOut1==undefined)
       table[i].enteringTypeId=4;
     else
@@ -171,7 +198,12 @@ saveTable(actionTable:TableRow[]){
     i=i+1;
   }
   if(action.checkIn2){
-    table[i]={date:new Date(action.date+' '+action.checkIn2), statusId:1,enteringTypeId:0,actionTypeId:0, employeeId:324215433};
+    let actId:number;
+    if(action.aiCheckIn2)
+      actId=action.aiCheckIn2;
+    else
+      actId=0;
+    table[i]={date:new Date(action.date+' '+action.checkIn2), statusId:1,enteringTypeId:0,actionTypeId:0, employeeId:this.user_id,actionId:actId};
     if(action.etCheckIn2==undefined)
       table[i].enteringTypeId=4;
     else
@@ -180,7 +212,12 @@ saveTable(actionTable:TableRow[]){
     i=i+1;
   }
   if(action.checkOut2){
-    table[i]={date:new Date(action.date+' '+action.checkOut2), statusId:2,enteringTypeId:0,actionTypeId:0, employeeId:324215433};
+    let actId:number;
+    if(action.aiCheckOut2)
+      actId=action.aiCheckOut2;
+    else
+      actId=0;
+    table[i]={date:new Date(action.date+' '+action.checkOut2), statusId:2,enteringTypeId:0,actionTypeId:0, employeeId:this.user_id,actionId:actId};
     if(action.etCheckOut2==undefined)
       table[i].enteringTypeId=4;
     else
@@ -189,7 +226,12 @@ saveTable(actionTable:TableRow[]){
     i=i+1;
   }
   if(action.checkIn3){
-    table[i]={date:new Date(action.date+' '+action.checkIn3), statusId:1,enteringTypeId:0,actionTypeId:0, employeeId:324215433};
+    let actId:number;
+    if(action.aiCheckIn3)
+      actId=action.aiCheckIn3;
+    else
+      actId=0;
+    table[i]={date:new Date(action.date+' '+action.checkIn3), statusId:1,enteringTypeId:0,actionTypeId:0, employeeId:this.user_id,actionId:actId};
     if(action.etCheckIn3==undefined)
       table[i].enteringTypeId=4;
     else
@@ -198,7 +240,12 @@ saveTable(actionTable:TableRow[]){
     i=i+1;
   }
   if(action.checkOut3){
-    table[i]={date:new Date(action.date+' '+action.checkOut3), statusId:2,enteringTypeId:0,actionTypeId:0, employeeId:324215433};
+    let actId:number;
+    if(action.aiCheckOut3)
+      actId=action.aiCheckOut3;
+    else
+      actId=0;
+    table[i]={date:new Date(action.date+' '+action.checkOut3), statusId:2,enteringTypeId:0,actionTypeId:0, employeeId:this.user_id,actionId:actId};
     if(action.etCheckOut3==undefined)
       table[i].enteringTypeId=4;
     else

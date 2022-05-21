@@ -37,34 +37,27 @@
     </div>
     <div class="employee-list ">
       <div class="list-group">
-        <div class="list-group-item header-col">
-          <div>שם מלא</div>
-          <div>תז</div>
-          <div>מחלקה</div>
-          <div>ערוך</div>
-          <div>מחק</div>
+        <div  class="list-group-item header-col">
+          <div class="col-2">שם מלא</div>
+          <div class="col-2">תז</div>
+          <div class="col-2">מחלקה</div>
+          <div class="col-2">מנהל ישיר</div>
+          <div class="col-2">מחק</div>
         </div>
+
+        <div *ngFor="let emp of employeeList"  class="list-group-item emp-item">
+          <div class="col-2">{{emp.firstName +' '+ emp.lastName }}</div>
+          <div class="col-2">{{emp.employeeId}}</div>
+          <div class="col-2">{{emp.department}}</div>
+          <div class="col-2">{{emp.managerFirstName+' '+ emp.managerLasttName}}</div>
+          <div class="col-2 btns">
+            <button class="edit-btn">ערוך</button>
+            <button class="report-btn" (click)="GoToAttendance(emp.employeeId)">דו"ח נוכחות</button>            
+          </div>
+        </div>
+        
       </div>
-      <!-- <div class="list-item  list-group">
-
-
-
-        <div class="col-1">
-מחק
-        </div>
-        <div class="col-1">
-          ערוך
-        </div>
-        <div class="col-3">
-          מחלקה
-        </div>
-        <div class="col-2">
-          תז
-        </div>
-        <div class="col-5">
-          שם מלא
-        </div>
-      </div> -->
+     
     </div>
   </div>
 

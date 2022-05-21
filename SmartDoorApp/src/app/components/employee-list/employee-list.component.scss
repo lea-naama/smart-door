@@ -1,3 +1,4 @@
+
 .title{
    font-size: 24px; 
 }
@@ -40,12 +41,49 @@ textarea:focus, input:focus{
    color: black;
 }
 .header-col{
-   display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;    
+    
     font-size: 14px;
     border: 0;
     font-weight: bold;
     border-bottom: 1px solid;
-    border-radius: 1px;    
+    border-radius: 1px;   
+    
+    display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   text-align: center;
+}
+
+.emp-item{   
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   text-align: center;
+}
+
+.list-group{
+   overflow-y: auto;
+   max-height: 300px;
+}
+.btns{
+   display: flex;
+    justify-content: space-evenly;
+}
+.report-btn{
+   background-color: #7425ff;
+   border: 1px solid white;
+   border-radius: 10px;
+   color: white;
+}
+.edit-btn{
+   background-color: white;
+   border: 1px solid;
+   border-radius: 10px;
+}
+
+.report-btn:hover{
+   background-color: white !important;
+   border: 1px solid black !important;
+   color: black !important;
+   border-radius: 10px;
 }

@@ -48,15 +48,18 @@ export class LogInComponent implements OnInit {
     this.dataService.GetUser(logInRequest).subscribe(response => {
       debugger;
       if (response != null && response.user != null) {
-        debugger;
+        
+        localStorage.setItem('employees', JSON.stringify(response.employeeList));
         console.log(response.user.email, response.user.password);               
         this.userService.employeeList = response.employeeList;
         localStorage.setItem('user', JSON.stringify(response.user));
         if (response.employeeList.length > 0) {
+          localStorage.setItem('isManager', JSON.stringify(true));
           this.OpenDialog();
         }
         else {
-          this.router.navigate(['shell/attandance']);
+          localStorage.setItem('isManager', JSON.stringify(false));
+          this.router.navigate(['shell/attandance/', response.user.id]);
         }
 
         this.logInBtnClicked = false;

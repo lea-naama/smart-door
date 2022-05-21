@@ -15,6 +15,7 @@ const routes: Routes = [
   {path:'shell', component:FrameComponent, 
   children:[
     {path:'attandance',component:AttendancePageComponent},
+    {path:'attandance/:id',component:AttendancePageComponent},
     {path:'employee-list',component:EmployeeListComponent},
     {path:'user-profil', component:UserProfilComponent},
     {path:'employee-details',component:EmployeeDetailsComponent}

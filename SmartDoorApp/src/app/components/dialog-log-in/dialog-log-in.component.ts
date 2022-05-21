@@ -18,12 +18,13 @@ export class DialogLogInComponent implements OnInit {
   LogInAsAdmin(){
     console.log('admin');
     this.userService.isManager = true;
+    localStorage.setItem('isManager', JSON.stringify(true));
     this.router.navigate(['shell/employee-list']);
   }
 
   LogInAsEmployee(){
     console.log('no admin');
-    this.router.navigate(['shell/attandance']);
+    this.router.navigate(['shell/attandance/',  JSON.parse(localStorage.getItem('user')).id]);
   }
 
 }

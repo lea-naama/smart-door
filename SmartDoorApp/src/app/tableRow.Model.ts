@@ -16,4 +16,11 @@ export class TableRow{
     etCheckOut2?:string;
     etCheckIn3?:string;
     etCheckOut3?:string;
+    aiCheckIn1:number;
+    aiCheckIn2:number;
+    aiCheckIn3:number;
+    aiCheckOut1:number;
+    aiCheckOut2:number;
+    aiCheckOut3:number;
+
 }
